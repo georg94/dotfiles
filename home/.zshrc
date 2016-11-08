@@ -5,6 +5,8 @@ autoload -Uz compinit colors vcs_info
 compinit
 colors
 
+DEFAULT_USER=`whomai`
+
 ##
 # Plugins
 ##
@@ -28,9 +30,6 @@ if ! zgen saved; then
 
   zgen save
 fi
-
-# redefine prompt_context for hiding user@hostname
-prompt_context () { }
 
 ##
 # Key Bindings
