@@ -1,0 +1,22 @@
+[user]
+
+[alias]
+    st = status
+    ci = commit
+    sa = stash
+    di = diff
+    co = checkout
+    sr = svn rebase
+    sdc = svn dcommit
+    ap = add -p
+    civ = commit -v
+    cf = checkout -f
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[push]
+  default = simple
+[log]
+    date = iso

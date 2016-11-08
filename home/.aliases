@@ -1,0 +1,38 @@
+##
+# Colorize things
+##
+
+alias diff='colordiff'
+alias egrep='egrep --color'
+alias grep='grep --color'
+alias ls='ls --color=auto'
+
+##
+# Aliases for directory listing and changing
+##
+
+alias l='ls -lA'
+alias lh='l -h'
+alias ..='cd ..'
+
+##
+# Aliases for ssh
+##
+
+alias ssr='ssh -l root'
+alias kh='vim ~/.ssh/known_hosts'
+
+##
+# Useful tools
+##
+
+alias pp='python -mjson.tool'
+alias pw='pwgen -s -c 15'
+alias reload='source ~/.zshrc'
+alias zshrc='vim ~/.zshrc && reload'
+
+##
+# git aliases
+##
+
+alias gti='git'
