@@ -5,7 +5,7 @@ autoload -Uz compinit colors vcs_info
 compinit
 colors
 
-DEFAULT_USER=`whomai`
+DEFAULT_USER=`whoami`
 
 ##
 # Plugins
